@@ -6,8 +6,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 30px;
-    margin-right: 50px;
+    margin-left: 60px;
+    margin-right: 80px;
 }
 .list-1{
     display: flex;
@@ -30,13 +30,13 @@ img{
     color: white;
 } 
 .container-A{
-    background-image: url(GR1.png);
+    background-image: url(GR1.png) ;
 }
 .objectif{
     text-align: center;
     background-color: orangered; 
-    padding: 60px 50px;
-    margin: 50px ;
+    padding: 60px 20px;
+     margin: 80px  ; 
     color: white;
     border-radius: 40px;
     margin-top: 5px;
@@ -62,10 +62,11 @@ img{
     justify-content: space-between; 
 }
     h2{
-        margin-left: 50px;
+        margin-left: 80px;
     }
 .item-2 .list {
     list-style: none;
+    margin-left: 30px;
 }
 .A,.B,.C,.D{
     border:2px solid orangered;
@@ -80,21 +81,21 @@ img{
  font-weight: bold;
 }
 .item-2 img{
-    width: 400px;
+    width: 300px;
     height: 400px;
-    background-image: url(GR.PNG.png);background-position: center ;width: 600px;
+    background-image: url(GR.PNG.png);background-position: center ;width: 500px;
 }
 .container-2 .item-2 .list{
-    margin-right: 50px;
+    margin-right: 80px;
 }
 .container-3{
     text-align: center;
     background-color: orangered;
     padding: 30px 200px  ;
-    margin: 50px 50px ;
+     margin: 50px 50px ; 
     border-radius: 50px;
     width: 60%;
-    color: white;
+     color: white; 
 }
 .item-3{
        background-color: rgba(255, 255, 255, 0.1); 
@@ -103,7 +104,6 @@ img{
     justify-content: space-between;
    border-radius: 10px;
    padding: 10px 70px;
-   margin: ;
 }
 .list-a{
     list-style-position: inside;
@@ -146,7 +146,6 @@ h6 a{
 .item-b{
     display: flex;
     justify-content: space-around;
-    text-align: ;
 }
 .list-2, .list-3{
     border: 2px solid orangered;
@@ -166,7 +165,6 @@ h6 a{
     justify-content: center;
     background-color: orangered;
     padding: 20px ;
-    gap: 30px;
     margin-top: 100px;
 }
 .box-1 .dure{
@@ -175,7 +173,7 @@ h6 a{
 .box-1, .box-2, .box-3{
  background-color: white;
  margin: 10px 20px;
- padding: 20px 30px;
+ padding: 10px 30px;
  border-radius: 10px;
 }
 .num{
@@ -236,12 +234,12 @@ background:linear-gradient(90deg ,orangered,rgb(110, 33, 33)) ;
     border-radius: 10px;
 }
 .container-6,.container-3,.container-2,.container-1,.container-7{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .item-7{
     display: flex;
     justify-content: space-between;
-    margin: 0px 30px;
+     margin: 0px 30px; 
 }
 .item-7 img{
     width: 150px;
@@ -285,7 +283,7 @@ background:linear-gradient(90deg ,orangered,rgb(110, 33, 33)) ;
 }
 .container-9{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     background-color: orangered;
     margin-top: 150px;
     padding: 20px 50px 0px  ;
@@ -301,30 +299,35 @@ background:linear-gradient(90deg ,orangered,rgb(110, 33, 33)) ;
 .item-9a .title-9{
     font-weight:bold ;
     margin-top: 5px;
+    margin-bottom: 50px;
 }
 .form-a{
     display: flex;
-    flex-direction:column ;
+    flex-direction:column; 
     margin: 30px 20px;
 }
 .form-b{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     margin: auto;
-}
+}  
 input{
-    padding: 10px;
+    padding: 10px 30px;
     border: 1px solid black;
 }
-.information{
+.renseignement{
+    display: flex;
+    flex-direction: row;
+}
+ .information{
     display: flex;
     justify-content:space-around ;
-}
+}  
 .envoie{
-    margin-left: 225px;
+    margin-left: 263px;
     background-color: black;
     color: white;
-    padding: 10px 65px;
+    padding: 10px 87px;
 }
 .item-9a .info{
     margin-top: 50px;
