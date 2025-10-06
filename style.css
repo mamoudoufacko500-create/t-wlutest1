@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  'Poppins', sans-serif;
     line-height: 1.5;
 }
 .container{
@@ -12,11 +12,19 @@ body{
 .list-1{
     display: flex;
     list-style: none;
-    gap: 60px;
+    gap: 40px;
 }
 a{
     text-decoration: none;
     color: black;
+    transition: 0.3s;
+}
+li a:hover{
+    background: orangered;
+    padding: 12px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
 }
 img{
     width: 150px;
@@ -76,8 +84,8 @@ img{
     padding: 30px 70px;
 }
 .A .stat{
+background-color: white;
  color: orangered;
- background-color: white;
  font-weight: bold;
 }
 .item-2 img{
